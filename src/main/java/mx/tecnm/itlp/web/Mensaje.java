@@ -11,12 +11,12 @@ public class Mensaje {
 
 	@GetMapping("/hola")
 	public String mostrarMensaje() {
-		return "Hola devops";
+		return "Hola bienvenidos. Como van con la bascula?";
 	}
-	
+
 	@GetMapping("/eco")
 	public String crearEco(@RequestParam String mensaje, @RequestParam int repeticiones) {
-		String resultado="";
+		String resultado = "";
 		for (int i = 0; i < repeticiones; i++) {
 			resultado = resultado + mensaje + " ";
 		}
