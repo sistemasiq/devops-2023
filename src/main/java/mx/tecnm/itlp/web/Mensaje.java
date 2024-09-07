@@ -11,7 +11,7 @@ public class Mensaje {
 
 	@GetMapping("/hola")
 	public String mostrarMensaje() {
-		return "Hola mundo web";
+		return "Hola devops";
 	}
 	
 	@GetMapping("/eco")
